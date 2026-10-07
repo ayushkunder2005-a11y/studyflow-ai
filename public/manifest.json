@@ -1,0 +1,33 @@
+{
+  "name": "StudyFlow AI — Student Schedule & Productivity",
+  "short_name": "StudyFlow",
+  "description": "Intelligent AI-powered student schedule maker, timetable builder, and academic copilot.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "orientation": "portrait-primary",
+  "background_color": "#0a0e17",
+  "theme_color": "#0a0e17",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ask AI",
+      "url": "/?openAi=true",
+      "description": "Open AI Schedule Copilot"
+    },
+    {
+      "name": "Calendar",
+      "url": "/?view=calendar",
+      "description": "View Today's Calendar"
+    }
+  ]
+}
